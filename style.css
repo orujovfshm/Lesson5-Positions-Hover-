@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(../img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.containermasthead{
+    
+    padding: 15.8rem;
+    text-align: center;
+}
+
+.containermasthead h1{
+    font-family: sans-serif;
+    font-size: 5.5rem;
+    margin: 0 0 4px;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+}
+
+.containermasthead h3{
+    font-size: 28px;
+    margin-bottom: 4rem;
+}
+.containermasthead a{
+    padding: 20px 40px;
+    background-color: #1d809f;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.menu{
+    color: #fff;
+    background-color: #343A4080;
+    position: fixed;
+    padding: 17px 20px;
+    right: 15px;
+    top: 15px;
+    border-radius: 2px;
+    
+}
+i:hover{
+    background-color: #343A40;
+}
+
+.angle {
+    color: #fff;
+    background-color: #343A4080;
+    position: fixed;
+    padding: 17px 20px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 2px;
+}
+
+.containerunsplash{
+    padding: 8rem;
+    text-align: center;
+
+}
+
+.containerunsplash h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.containerunsplash p{
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    opacity: 0.7;
+}
+.containerunsplash .offer{
+    padding: 20px 40px;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+}
+.containetoffer{
+    background-color: #1d809f;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+.containetoffer h3{
+    color: rgb(236, 184, 7);
+    
+}
+.containetoffer h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.offericons .box{
+    float: left;
+    width: 25%;
+    padding: 3rem;
+    
+    
+}
+.offericons .btn{
+    border-radius: 100%;
+    background-color: #fff;
+    color: #1d809f;
+    padding: 40px;
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+}
+.offericons h2{
+    font-size: 24px;
+    
+}
+.offericons h3{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+.containercallout {
+    text-align: center;
+    text-decoration: none;
+    background-image: url(../img/bg-callout.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15.6rem;
+}
+.containercallout h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.containercallout a{
+    padding: 20px 40px;
+    border-radius: 4px;
+    background-color: #1d809f;
+    color: #fff;
+    text-decoration: none;
+}
+.containterdoublebtn{
+    background-color: #1d809f;
+    color: #fff;
+    padding:   7.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+.containterdoublebtn h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+.containterdoublebtn .click{
+    padding: 18px 30px;
+    border-radius: 4px;
+    background-color: #f6fafc;
+    color: #000;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.containterdoublebtn .look {
+    padding: 18px 35px;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+.containersocial{
+    padding: 6rem;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.containersocial i{
+    background-color: #1d809f;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 25px;
+    margin: 0 8px;
+    color: #fff;
+
+}
+.containersocial .fb{
+    padding: 15px 20px;
+}
+.containersocial h6{
+    margin-top: 2rem;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.containersocial a:hover{
+    color: #005d7a;
+}
+.containerprojects{
+    padding: 120px 0;
+    overflow: hidden;
+}
+.projectheadings h3,h4{
+    text-align: center;
+    
+}
+.projectheadings h3{
+    font-size: 16px;
+    color: #ECB807;
+}
+.projectheadings h4{
+    font-size: 48px;
+    margin: 0 0 48px;
+}
+.projectslinks {
+    
+    margin: 0px auto;
+    width: 80%;
+    
+}
+.linktext {
+    position:absolute;
+    bottom: 20%;
+    left: 15%;
+    position:absolute;
+    color: #fff;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.link{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.link img {
+    width: 100%;
+    vertical-align: bottom;
+}
+.linktext h2 {
+    font-size: 12.8px;
+    margin-bottom: 0.4rem;
+}
+.linktext p{
+    font-size: 19.2px;
+}
